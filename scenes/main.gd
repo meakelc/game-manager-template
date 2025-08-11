@@ -13,7 +13,6 @@ func _ready() -> void:
 	start_button.pressed.connect(_on_start_pressed)
 	quit_button.pressed.connect(_on_quit_pressed)
 
-
 func _on_start_pressed() -> void:
 	print("[MainMenu] Start button pressed - beginning new run")
 	
